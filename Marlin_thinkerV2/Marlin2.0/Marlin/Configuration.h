@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Thinker V2"
+#define CUSTOM_MACHINE_NAME "CA Thinker V2 (e3d 0.1)"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -476,9 +476,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker   Kp: 29.88 Ki: 2.72 Kd: 81.99
-  #define DEFAULT_Kp 22.2
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 114
+  #define DEFAULT_Kp 29.13
+  #define DEFAULT_Ki 3.23
+  #define DEFAULT_Kd 65.61
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -864,7 +864,7 @@
 /**
  * The BLTouch probe uses a Hall effect sensor and emulates a servo.
  */
-//#define BLTOUCH
+#define BLTOUCH
 #if ENABLED(BLTOUCH)||ENABLED(FIX_MOUNTED_PROBE)
   //#define BLTOUCH_DELAY 375   // (ms) Enable and increase if needed
 
@@ -930,7 +930,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -39, -11, 0 }
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 10
@@ -1187,7 +1187,7 @@
 
 #endif
 //#define AUTO_BED_LEVELING_UBL
-#define MESH_BED_LEVELING
+//#define MESH_BED_LEVELING
 
 //#define POWER_LOSS_RECOVER_SUPER_CAP 1
 
