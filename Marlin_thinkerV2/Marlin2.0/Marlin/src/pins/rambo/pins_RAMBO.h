@@ -72,7 +72,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN         -1//24/* X_MAX_PIN//22   // Motor header MX1*/
+#define SERVO0_PIN         4//24/* X_MAX_PIN//22   // Motor header MX1*/
 #define SERVO1_PIN         23   // Motor header MX2
 #define SERVO2_PIN         -1//24   // Motor header MX3
 #define SERVO3_PIN          5   // PWM header pin 5
