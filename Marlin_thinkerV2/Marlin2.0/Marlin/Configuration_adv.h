@@ -656,7 +656,7 @@
 #define Z_STEPPER_AUTO_ALIGN
 #if ENABLED(Z_STEPPER_AUTO_ALIGN)
   // Define probe X and Y positions for Z1, Z2 [, Z3]
-  #define Z_STEPPER_ALIGN_XY { {  10, 150 }, { 290,  150 } } //, { 290, 290 } }
+  #define Z_STEPPER_ALIGN_XY { {  30, 150 }, { 270,  150 } } //, { 290, 290 } }
 
   // Provide Z stepper positions for more rapid convergence in bed alignment.
   // Currently requires triple stepper drivers.
