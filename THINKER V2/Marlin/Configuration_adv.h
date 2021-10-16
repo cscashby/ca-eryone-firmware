@@ -1,0 +1,1 @@
+/Users/cashby/dev/ca-eryone-firmware/ca-printers/vivo-2-Sv2.1/Configuration_adv.h
